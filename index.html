@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz Divertido</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Quiz Divertido!</h1>
+    <div id="quiz-container">
+      <div id="pergunta"></div>
+      <div id="respostas"></div>
+      <button id="btn-proximo">Próxima</button>
+    </div>
+    <div id="resultado" class="hidden">
+      <h2>Seu Resultado:</h2>
+      <p id="mensagem-final"></p>
+      <button onclick="reiniciarQuiz()">Tentar de Novo</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
